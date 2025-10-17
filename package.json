@@ -1,0 +1,46 @@
+{
+  "name": "webscraper-server",
+  "version": "1.0.0",
+  "description": "Backend server for web scraping application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node real-crypto-server.js",
+    "dev": "nodemon server.js",
+    "demo": "node demo-server.js",
+    "demo-dev": "nodemon demo-server.js",
+    "crypto-demo": "node crypto-demo-server.js",
+    "crypto-demo-dev": "nodemon crypto-demo-server.js",
+    "production": "node production-server.js",
+    "production-dev": "nodemon production-server.js",
+    "real-crypto": "node real-crypto-server.js",
+    "real-crypto-dev": "nodemon real-crypto-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "scraper",
+    "api",
+    "mongodb",
+    "express",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
