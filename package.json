@@ -4,7 +4,7 @@
   "description": "Backend server for web scraping application",
   "main": "server.js",
   "scripts": {
-    "start": "node working-crypto-server.js",
+    "start": "node simple-crypto-server.js",
     "dev": "nodemon server.js",
     "demo": "node demo-server.js",
     "demo-dev": "nodemon demo-server.js",
