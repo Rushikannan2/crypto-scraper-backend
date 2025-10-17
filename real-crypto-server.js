@@ -22,9 +22,12 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'https://crypto-scraper-frontend.onrender.com',
+    'https://crypto-scraper-frontend.onrender.com',
     process.env.FRONTEND_URL || 'https://crypto-scraper-frontend.onrender.com'
   ],
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 // Logging middleware

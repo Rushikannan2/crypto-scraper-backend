@@ -4,7 +4,7 @@
   "description": "Backend server for web scraping application",
   "main": "server.js",
   "scripts": {
-    "start": "node real-crypto-server.js",
+    "start": "node production-crypto-server.js",
     "dev": "nodemon server.js",
     "demo": "node demo-server.js",
     "demo-dev": "nodemon demo-server.js",
@@ -13,7 +13,9 @@
     "production": "node production-server.js",
     "production-dev": "nodemon production-server.js",
     "real-crypto": "node real-crypto-server.js",
-    "real-crypto-dev": "nodemon real-crypto-server.js"
+    "real-crypto-dev": "nodemon real-crypto-server.js",
+    "production-crypto": "node production-crypto-server.js",
+    "production-crypto-dev": "nodemon production-crypto-server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
